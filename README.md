@@ -1,77 +1,86 @@
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/Team-Dobos-Torte/FEC-Project-Catwalk">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+# Project Catwalk - Retail Web Portal
 
-  <h3 align="center">Project Catwalk</h3>
+This project was build out by 3 developers over the course of two weeks. The app
+is built to the specifications of a 24 page business requirement document. The
+primary technologies used are React (with React Hooks and custom styled
+components), with Express to render data from a headless API, Material UI for
+certain components, and CSS for general styling and custom component design.
 
-  <p align="center">
-    Front End Capstone Project at Hack Reactor
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-  </p>
-</p>
+## Components
 
+### Product Overview
 
+The top most section on each individual projects page. Designed to guide the
+user through making selections for style and size.
 
+![Product overview component](readme_assets/overview.gif)
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+### Related Products
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+The related products portion of the page is divided into two main components.
+The first of which displays products related to the highlighted page on the
+product overview, and makes comparisons to the aforementioned product. The
+second part is the 'Outfits' creation portion, in which users can save articles
+as a collection.
 
+![Related product component gif](readme_assets/related_products.gif)
 
+### Ratings and Reviews
 
-### Built With
+The ratings and reviews portion of the page consists of the ratings component to
+the left, and the review component to the right. The ratings part displayed
+information pertaining to the selected product, including user feedback for
+specific item characteristics and user ratings. The review part allows the user
+to sort reviews by a few different methods and also to filter reviews be rating.
+Additionally there is a form that allows the user to submit new reviews.
 
-* [React]()
-* [Node, Express]()
-* [Jest, Enzyme, Webpack]()
-* [Sass, Material UI]()
+![Ratings and reviews component gif](readme_assets/ratings_reviews.gif)
 
+## Building and installing env
 
+First install dependencies:
 
-<!-- GETTING STARTED -->
-## Getting Started
+```sh
+npm install
+```
 
-To get a local copy up and running follow these simple steps.
+To run node server:
 
+```sh
+npm start
+```
 
-### Installation
+To create a production build:
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/Team-Dobos-Torte/FEC-Project-Catwalk.git
-   ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
+```sh
+npm run build-prod
+```
 
+To create a development build:
 
+```sh
+npm run build-dev
+```
 
-<!-- USAGE EXAMPLES -->
-## Usage
+## Running
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Open the file `dist/index.html` in your browser
 
+## Tech Stack
 
+- [React](https://reactjs.org/)
+- [Node](https://nodejs.org/en/)
+- [Express](https://expressjs.com/)
+- [AWS](https://aws.amazon.com/)
 
-
-<!-- TEAM -->
 ## Team
 
-* Dylan Allgood - Rating and Reviews Module
-  * https://github.com/dylanallgood
-  * www.linkedin.com/in/dylanallgood
-  
-* Justin Umberger - Overview Module
-  * https://github.com/Justin-WebDev
-  * YOUR LINKEDIN
-  
-* Calvin Rudy - Questions and Answers Module
-  * https://github.com/urbanseabear
-  * YOUR LINKEDIN
+- Dylan Allgood - Rating and Reviews Module
+  - https://github.com/dylanallgood
+  - www.linkedin.com/in/dylanallgood
+- Justin Umberger - Overview Module
+  - https://github.com/Justin-WebDev
+  - YOUR LINKEDIN
+- Calvin Rudy - Questions and Answers Module
+  - https://github.com/urbanseabear
+  - YOUR LINKEDIN
