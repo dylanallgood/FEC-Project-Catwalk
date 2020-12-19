@@ -17,28 +17,37 @@ user through making selections for style and size.
 
 ### Questions and Answers
 
-The related products portion of the page is divided into two main components.
-The first of which displays products related to the highlighted page on the
-product overview, and makes comparisons to the aforementioned product. The
-second part is the 'Outfits' creation portion, in which users can save articles
-as a collection.
+The Questions & Answers module allows asking and answering of questions for the
+product selected. The functionality contained within this module can be divided
+into several pieces:
+
+- View questions
+- Search for a question
+- Asking a question
+- Answering a question This component extends the ability to view and search
+  questions, ask questions, answer questions and provide feedback on questions
+  about the current product.
 
 ![Related product component gif](readme_assets/q_a.gif)
 
 ### Ratings and Reviews
 
-The ratings and reviews portion of the page consists of the ratings component to
-the left, and the review component to the right. The ratings part displayed
-information pertaining to the selected product, including user feedback for
-specific item characteristics and user ratings. The review part allows the user
-to sort reviews by a few different methods and also to filter reviews be rating.
-Additionally there is a form that allows the user to submit new reviews.
+The Ratings & Reviews module allows viewing and submission of reviews for the
+product selected. The functionality contained within this module can be divided
+into several pieces:
+
+- Write new review
+- Reviews List
+- Sorting
+- Rating Breakdown
+- Product Breakdown This component extends the ability to write, read, and
+  browse through reviews for the current product.
 
 ![Ratings and reviews component gif](readme_assets/ratings_review1.gif)
 
-The review part allows the user to sort reviews by a few different methods and
-also to filter reviews be rating. Additionally there is a form that allows the
-user to submit new reviews.
+The heart of the Ratings and Reviews module is the list of reviews available for
+the user to read. This list displays all the reviews that have been submitted
+for the product being viewed.
 
 ![Ratings and reviews component gif](readme_assets/ratings_review2.gif)
 
@@ -86,7 +95,5 @@ Open the file `dist/index.html` in your browser
   - www.linkedin.com/in/dylanallgood
 - Justin Umberger - Overview Module
   - https://github.com/Justin-WebDev
-  - YOUR LINKEDIN
 - Calvin Rudy - Questions and Answers Module
   - https://github.com/urbanseabear
-  - YOUR LINKEDIN
