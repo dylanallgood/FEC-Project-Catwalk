@@ -15,7 +15,7 @@ user through making selections for style and size.
 
 ![Product overview component](readme_assets/overview.gif)
 
-### Related Products
+### Questions and Answers
 
 The related products portion of the page is divided into two main components.
 The first of which displays products related to the highlighted page on the
@@ -23,7 +23,7 @@ product overview, and makes comparisons to the aforementioned product. The
 second part is the 'Outfits' creation portion, in which users can save articles
 as a collection.
 
-![Related product component gif](readme_assets/related_products.gif)
+![Related product component gif](readme_assets/q_a.gif)
 
 ### Ratings and Reviews
 
