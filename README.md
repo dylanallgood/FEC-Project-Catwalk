@@ -34,13 +34,13 @@ specific item characteristics and user ratings. The review part allows the user
 to sort reviews by a few different methods and also to filter reviews be rating.
 Additionally there is a form that allows the user to submit new reviews.
 
-![Ratings and reviews component gif](readme_assets/ratings_reviews1.gif)
+![Ratings and reviews component gif](readme_assets/ratings_review1.gif)
 
 The review part allows the user to sort reviews by a few different methods and
 also to filter reviews be rating. Additionally there is a form that allows the
 user to submit new reviews.
 
-![Ratings and reviews component gif](readme_assets/ratings_reviews2.gif)
+![Ratings and reviews component gif](readme_assets/ratings_review2.gif)
 
 ## Building and installing env
 
